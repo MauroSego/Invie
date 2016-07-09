@@ -39,6 +39,15 @@ body{
 .logotipo{
 	display: inline-block;
 }
+.guitarra {
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid black;
+}
+.guitarra ol{
+	padding: 0;
+}
 .menu li {
 	display: inline-block;
 	margin-left: 30px;
@@ -52,4 +61,10 @@ body{
 }
 .derecha{
 	float: right;
+}
+.contenedor-guitarra-a{
+	padding-left: 20px;
+}
+.contenedor-guitarra-b{
+	margin-left: 370px;
 }
