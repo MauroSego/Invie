@@ -2,6 +2,13 @@ body{
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
 }
+button{
+	border-radius: 5px;
+	background-color: #fd324e;
+	border: none;
+	color: white;
+	padding: 7px;
+}
 .titulo {
 	font-size: 70px;
 	font-family: 'Montserrat', sans-serif;
@@ -35,6 +42,8 @@ body{
 .menu{
 	font-size: 24px;
 	display: inline-block;
+	position: absolute;
+	right: 0;
 }
 .logotipo{
 	display: inline-block;
@@ -42,8 +51,8 @@ body{
 .guitarra {
 	margin: 10px;
 	padding: 10px;
-	overflow: hidden;
 	border: 1px solid black;
+	border-radius: 5px;
 }
 .guitarra ol{
 	padding: 0;
@@ -58,13 +67,20 @@ body{
 }
 .izquierda{
 	float: left;
+	position:relative;
+	top: 80px
 }
 .derecha{
 	float: right;
+	position: relative;
+	top: -128px;
 }
 .contenedor-guitarra-a{
 	padding-left: 20px;
 }
 .contenedor-guitarra-b{
 	margin-left: 370px;
+}
+.header{
+	position: relative;
 }
