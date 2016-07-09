@@ -84,3 +84,16 @@ button{
 .header{
 	position: relative;
 }
+.footer{
+	background-color: #273b47
+}
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
+}
