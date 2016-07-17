@@ -45,6 +45,12 @@ body{
 	position: absolute;
 	right: 0;
 }
+.menu li:before{
+	content: '∘';
+	font-size: 50px;
+	line-height: 20px;
+	color: blue;
+}
 .logotipo{
 	display: inline-block;
 }
@@ -132,4 +138,23 @@ margin-top: 10px;
 }
 .col2{
 	align-items: flex-start;
+}
+table{
+	width: 100%;
+}
+th{
+	background: #273b47;
+	color: white
+}
+th{
+	padding: 10px 20px;
+	text-align: left;
+
+}
+table, td, th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+td{
+	padding: 20px;
 }
